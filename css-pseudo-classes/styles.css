@@ -1,7 +1,6 @@
 button {
-  width: 120px;
-  height: 40px;
   font-size: 1.05rem;
+  padding: 6px 16px;
 }
 
 button:hover {
@@ -15,6 +14,10 @@ th {
   color: white;
 }
 
-tr:nth-child(odd) {
+.data tr:nth-child(odd) {
+  background-color: lightskyblue;
+}
+
+.second tr:nth-child(odd) {
   background-color: rgb(188 184 184);
 }
