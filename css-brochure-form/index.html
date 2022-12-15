@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +9,17 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
   <div>
     <p class="learn"> LEARN MORE </p>
   </div>
   <div>
-    <form id="questions">
+    <form class="questions">
       <div >
         <div class="question-prompt">
           <label for="email" class="labeltxt">COMPANY EMAIL</label>
           <div>
-            <input type="email" name="email" placeholder="sally@company.co" required>
+            <input type="email" name="email" id="email" placeholder="sally@company.co" required>
           </div>
         </div>
         <div class="question-prompt">
@@ -29,13 +27,13 @@
             NAME
           </label>
           <div>
-            <input type="text" name="name" placeholder="Sally Smith" required>
+            <input type="text" name="name" id="name" placeholder="Sally Smith" required>
           </div>
         </div>
         <div class="question-prompt">
           <label for="location" class="labeltxt">WHERE ARE YOU HIRING?</label>
           <div>
-            <input type="text" name="location" placeholder="City, Country" required>
+            <input type="text" name="location" id="location" placeholder="City, Country" required>
           </div>
         </div>
         <div class="question-prompt">
@@ -43,7 +41,7 @@
             HOW MANY ENGINEERS ARE YOU
             HIRING IN THE NEXT 6 MONTHS?</label>
           <div>
-            <select name="engineers" class="dropdown-input">
+            <select name="engineers" id="engineers" class="dropdown-input">
               <option value="1-2 Engineers">1&#8211;2 Engineers</option>
               <option value="3-4 Engineers">3&#8211;4 Engineers</option>
               <option value="5-6 Engineers">5&#8211;6 Engineers</option>
@@ -57,5 +55,4 @@
       </div>
     </form>
 </body>
-
 </html>
