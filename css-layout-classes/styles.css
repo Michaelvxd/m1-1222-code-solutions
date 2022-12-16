@@ -12,13 +12,7 @@ img {
   display: flex;
 }
 
-.one-third {
-  display: flex;
-  flex-direction: column;
-  flex-basis: calc(100% / 3);
-}
-
-.one-forth {
+.column-one-forth {
   display: flex;
   flex-direction: column;
   flex-basis: calc(100% / 4);
