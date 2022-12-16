@@ -13,19 +13,13 @@ img {
 }
 
 .column-one-forth {
-  display: flex;
-  flex-direction: column;
   flex-basis: calc(100% / 4);
 }
 
 .column-two-third {
-  display: flex;
-  flex-direction: column;
   flex-basis: calc((100%/3) * 2);
 }
 
 .column-one-third {
-  display: flex;
-  flex-direction: column;
   flex-basis: calc(100% / 3);
 }
