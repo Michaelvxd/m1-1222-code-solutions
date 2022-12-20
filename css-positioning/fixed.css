@@ -8,5 +8,6 @@ html {
   /* your code here */
   position: fixed;
   top: 75px;
-  left: 50%;
+  width: 100%;
+  text-align: center;
 }
