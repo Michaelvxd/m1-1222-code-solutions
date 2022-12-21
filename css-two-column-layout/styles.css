@@ -1,5 +1,5 @@
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -8,6 +8,58 @@
   display: flex;
 }
 
-.column {
+h1 {
+  font-family: Karla, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  margin-top: 48px;
+  font-size: 48px;
+}
+
+.column-header > p {
+  text-align: center;
+  font-family: Karla, sans-serif;
+  color: rgb(106 106 106);
+  padding: 0 100px;
+  margin-bottom: 44px;
+}
+
+.col-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: black;
+}
+
+.col {
+  font-family: Karla, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+  color: rgb(106 106 106);
+  margin: 10px;
   display: flex;
+  line-height: 1.5rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn > button {
+  background-color: white;
+  color: rgb(255 60 0);
+  border: 2px solid rgb(255 60 0);
+  font-family: Karla, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  padding: 6px 22px;
+}
+
+img {
+  height: 60%;
+  width: 60%;
 }
