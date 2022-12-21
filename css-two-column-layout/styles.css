@@ -2,6 +2,7 @@
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  flex-basis: 100%;
 }
 
 .row {
@@ -40,14 +41,15 @@ h1 {
   margin: 10px;
   display: flex;
   line-height: 1.5rem;
+  flex-basis: 50%;
 }
 
-.btn {
+.row-btn {
   display: flex;
   justify-content: center;
 }
 
-.btn > button {
+.col-btn > button {
   background-color: white;
   color: rgb(255 60 0);
   border: 2px solid rgb(255 60 0);
@@ -62,4 +64,5 @@ h1 {
 img {
   height: 60%;
   width: 60%;
+}
 }
