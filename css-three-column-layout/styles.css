@@ -1,0 +1,53 @@
+.container {
+  background-color: rgb(69 146 198);
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100vh;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  background-color: rgb(69 146 198);
+  flex-basis: calc(100%/3);
+  margin: 50px;
+}
+
+.col-header {
+  color: white;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  flex-basis: 100%;
+}
+
+h3 {
+  color: white;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  color: rgb(226 224 224);
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  height: 70px;
+  width: 70px;
+  display: flex;
+}
+
+.img-bkgrnd {
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
