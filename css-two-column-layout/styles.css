@@ -32,13 +32,13 @@ h1 {
   color: black;
 }
 
-.col-desc {
+.col {
   font-family: Karla, sans-serif;
   font-size: 14px;
   letter-spacing: 0.1rem;
   color: rgb(106 106 106);
   margin: 10px;
-  line-height: 28px;
+  line-height: 12px;
 }
 
 .btn {
