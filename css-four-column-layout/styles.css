@@ -1,0 +1,33 @@
+img.icon {
+  width: 20%;
+}
+
+img.screen {
+  width: 90%;
+}
+
+.container {
+  background-color: rgb(246 244 241);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  font-family: Barlow, sans-serif;
+}
+
+.col-fourth {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100%/4);
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  font-family: Barlow, sans-serif;
+}
+
+h2 {
+  font-size: 28px;
+}
