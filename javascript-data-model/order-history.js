@@ -6,7 +6,8 @@ var orderHistory = [
     total: 34.00,
     deliveryDate: 'August 4th, 2020',
     orderNumber: '114 - 3941689 - 8772232',
-    rtrnItemOne: 'Sept 7th, 2020'
+    rtrnItemOne: 'Sept 7th, 2020',
+    shipTo: 'JS Masher'
   },
   {
     itemOne: 'The Timeless Way of Building',
@@ -16,7 +17,8 @@ var orderHistory = [
     orderPlaced: 'July 19th, 2020',
     deliveryDate: 'July 20, 2020',
     orderNumber: '113-9984268-1280257',
-    rtrnItemOne: 'Aug 19th, 2020'
+    rtrnItemOne: 'Aug 19th, 2020',
+    shipTo: 'JS Masher'
   },
   {
     itemOne: 'Gamecube Controller adapter',
@@ -25,7 +27,8 @@ var orderHistory = [
     orderPlaced: 'July 4th, 2020',
     deliveryDate: 'July 7th, 2020',
     orderNumber: '114-2875557-9059409',
-    rtrnItemOne: 'Aug 5th, 2020'
+    rtrnItemOne: 'Aug 5th, 2020',
+    shipTo: 'JS Masher'
   },
   {
     itemOne: 'Gamecube Controller - Super Smash Bros. Edition',
@@ -40,6 +43,7 @@ var orderHistory = [
     total: 138.93,
     orderPlaced: 'July 3rd, 2020',
     deliveryDate: 'July 5th, 2020',
-    orderNumber: '113-2883177-2648248'
+    orderNumber: '113-2883177-2648248',
+    shipTo: 'JS Masher'
   }
 ];
