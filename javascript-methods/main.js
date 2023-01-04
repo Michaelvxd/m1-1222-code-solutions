@@ -6,7 +6,7 @@ var maximumValue = Math.max(numOne, numtwo, numThree);
 console.log(`maximumValue: ${maximumValue}`);
 
 var heroes = ['Batman', 'Superman', 'The Flash', 'Blackwidow'];
-var randomNumber = Math.random(heroes);
+var randomNumber = Math.random();
 randomNumber = heroes.length * randomNumber;
 var randomIndex = Math.floor(randomNumber);
 console.log(`randomIndex: ${randomIndex}`);
@@ -47,7 +47,7 @@ library.splice(1, 1);
 
 console.log('library:', library);
 
-var fullName = 'Michael VanDoorn';
+var fullName = 'Michael Van\xa0Doorn';
 var firstAndLastName = fullName.split(' ');
 console.log('firstAndLastName:', firstAndLastName);
 
