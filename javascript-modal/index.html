@@ -5,21 +5,17 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="my-bkg"></div>
   <div class="container">
-    <div class="row-btn">
-      <div class="column-btn">
-        <button class="btn">Open Modal</button>
-      </div>
-    </div>
-    <div class="row-modal">
-      <div class="column-modal">
-        <div class="modal">
-          <p>Would you like to take a survey?</p>
-          <div>
-            <button class="btn-modal">NO</button>
-          </div>
+    <button class="btn">Open Modal</button>
+    <div class="modal-contain">
+      <dialog class="modal-show">
+        <p>Would you like to take a survey?</p>
+        <div>
+          <button class="btn-modal">NO</button>
         </div>
-      </div>
+
+      </dialog>
     </div>
   </div>
   <script src="main.js"></script>

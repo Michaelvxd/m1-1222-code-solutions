@@ -1,16 +1,16 @@
 
 var button = document.querySelector('.btn');
-var modal = document.querySelector('.modal');
-var background = document.querySelector('.container');
 var modalBtn = document.querySelector('.btn-modal');
+var modal = document.querySelector('.modal-show');
+var bkg = document.querySelector('.my-bkg');
 button.addEventListener('click', promptModal);
 modalBtn.addEventListener('click', closeModal);
 
 function promptModal() {
-  modal.classList.toggle('modal-show');
-  background.classList.toggle('contain-bkg');
+  modal.style.display = 'flex';
+  bkg.classList.toggle('bkg-show');
 }
 function closeModal() {
-  modal.classList.toggle('modal-show');
-  background.classList.toggle('contain-bkg');
+  modal.style.display = 'none';
+  bkg.classList.toggle('bkg-show');
 }
