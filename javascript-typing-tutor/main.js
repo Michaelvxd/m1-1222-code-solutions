@@ -16,6 +16,7 @@ function checkCharacter(event) {
     currentIndex++;
   } else {
     currentChar.classList.add('character-wrong');
+    characters[currentIndex].classList.add('character-next-wrong');
     document.removeEventListener('keydown', checkCharacter);
     restartButton.classList.remove('restart');
   }
@@ -47,4 +48,5 @@ function removeCSS(character) {
   character.classList.remove('character-correct');
   character.classList.remove('character-wrong');
   character.classList.remove('character-next');
+  character.classList.remove('character-next-wrong');
 }

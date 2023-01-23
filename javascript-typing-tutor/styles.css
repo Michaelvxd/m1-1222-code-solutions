@@ -47,7 +47,7 @@ img {
 }
 
 .character-next {
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
 }
 
 .character-correct {
@@ -56,4 +56,8 @@ img {
 
 .character-wrong {
   color: red;
+}
+
+.character-next-wrong {
+  border-bottom: 3px solid rgb(249 0 0);
 }
