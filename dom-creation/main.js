@@ -88,10 +88,9 @@ function renderPokemon(pokemon) {
   return divCol;
 }
 
-function appendChildren(element) {
-  targetRow.appendChild(element);
-}
-
 var targetRow = document.querySelector('.row');
-var getPokemon = pokedex.map(renderPokemon);
-getPokemon.forEach(appendChildren);
+
+for (var i = 0; i < pokedex.length; i++) {
+  var pokemon = renderPokemon(pokedex[i]);
+  targetRow.appendChild(pokemon);
+}
