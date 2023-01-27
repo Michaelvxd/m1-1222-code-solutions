@@ -7,16 +7,16 @@ tabContain.addEventListener('click', function (event) {
     for (var i = 0; i < tabList.length; i++) {
       if (tabList[i] === event.target) {
         tabList[i].classList.add('active');
-        var dataView = event.target.getAttribute('data-view');
-        for (var j = 0; j < viewList.length; j++) {
-          if (dataView === viewList[j].getAttribute('data-view')) {
-            viewList[j].classList.remove('hidden');
-          } else {
-            viewList[j].classList.add('hidden');
-          }
-        }
       } else {
         tabList[i].classList.remove('active');
+      }
+    }
+    var dataView = event.target.getAttribute('data-view');
+    for (var j = 0; j < viewList.length; j++) {
+      if (dataView === viewList[j].getAttribute('data-view')) {
+        viewList[j].classList.remove('hidden');
+      } else {
+        viewList[j].classList.add('hidden');
       }
     }
   }
